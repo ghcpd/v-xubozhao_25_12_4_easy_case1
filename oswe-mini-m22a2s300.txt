@@ -1,0 +1,41 @@
+User: Based on monthl_sales.json, please draw a line chart and a bar chart for me.
+
+GitHub Copilot: Let me read monthl_sales.json to get the data and confirm its structure. Next I will prepare a small Python script to load the file and generate a line chart and a bar chart.
+
+Read [](file:///e%3A/Bug%20Bash/12_4_easy_test/case1/oswe-mini-m22a2s300/monthl_sales.json)
+
+Proceeding to create a Python script that loads monthl_sales.json and generates both charts, saving them as PNG files.
+
+Created [](file:///e%3A/Bug%20Bash/12_4_easy_test/case1/oswe-mini-m22a2s300/plot_sales.py)
+
+I'm going to run the script to generate the PNG charts now; I'll report back with the saved file paths.
+
+Ran terminal command: Set-Location -LiteralPath "e:\Bug Bash\12_4_easy_test\case1\oswe-mini-m22a2s300"; python .\plot_sales.py
+
+Perfect! I generated both charts and saved them as PNG files in the project folder. Next I will show the saved file paths, run command, and quick customization options.## ✅ Charts generated — quick summary
+- **Files saved:**  
+  - `e:\Bug Bash\12_4_easy_test\case1\oswe-mini-m22a2s300\sales_line_chart.png`  
+  - `e:\Bug Bash\12_4_easy_test\case1\oswe-mini-m22a2s300\sales_bar_chart.png`  
+- **Data highlights:** **highest** = **Dec ($23,000)**, **lowest** = **Jan ($12,000)**. 🔍
+
+---
+
+## 🔧 How to re-run (run from PowerShell)
+1. Install dependencies (if needed):  
+   `pip install pandas matplotlib`  
+2. Run the script from the project folder:  
+   Set-Location -LiteralPath "e:\Bug Bash\12_4_easy_test\case1\oswe-mini-m22a2s300"; python plot_sales.py
+
+---
+
+## 💡 What the script does
+- Loads monthl_sales.json  
+- Produces a **line chart** (sales_line_chart.png) and a **bar chart** (sales_bar_chart.png) with labels and a highlighted max value.  
+- File created: plot_sales.py (in the same folder) — edit this to change colors, layout, or output format.
+
+---
+
+## Next steps? ✨
+- **Want color/style changes, export to PDF, or interactive charts?** Tell me which and I’ll update plot_sales.py.
+
+Made changes.
